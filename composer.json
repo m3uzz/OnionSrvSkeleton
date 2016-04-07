@@ -26,13 +26,20 @@
                     "reference": "master"
                 }
             }
+        },
+	{	
+            "type": "vcs",
+            "url": "https://github.com/m3uzz/onionsrv.git"
+        },
+	{	
+            "type": "vcs",
+            "url": "https://github.com/m3uzz/onionlib.git"
         }
     ],
     "require": {
         "php": ">=5.4",
 	"m3uzz/onionsrv": "master",
-        "m3uzz/onionlib": "master",
-	"phpmailer/phpmailer": "^5.2"
+	"m3uzz/onionlib": "master"
     },
     "require-dev": {
     },
