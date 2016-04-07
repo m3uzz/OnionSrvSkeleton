@@ -1,0 +1,43 @@
+{
+    "name": "m3uzz/OnionSrvSkeleton",
+    "description": "Skeleton Application for Onion Srv",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "m3uzz",
+        "onion",
+	"srv"
+    ],
+    "homepage": "http://onion.m3uzz.com/",
+    "type": "library",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "m3uzz/OnionSrvSkeleton",
+                "version": "master",
+                "dist": {
+                    "url": "https://github.com/m3uzz/OnionSrvSkeleton/archive/master.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/m3uzz/OnionSrvSkeleton.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+	"m3uzz/onionsrv": "master",
+        "m3uzz/onionlib": "master",
+	"phpmailer/phpmailer": "^5.2"
+    },
+    "require-dev": {
+    },
+    "bin": [
+    ],
+    "replace": {
+    }
+}
