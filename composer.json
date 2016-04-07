@@ -1,15 +1,21 @@
 {
     "name": "m3uzz/OnionSrvSkeleton",
     "description": "Skeleton Application for Onion Srv",
+    "homepage": "http://onion.m3uzz.com/",
     "license": "BSD-3-Clause",
-    "keywords": [
+    "authors": [
+        {
+            "name": "Humberto S Lourenco",
+            "email": "betto@m3uzz.com"
+        }
+    ], 
+   "keywords": [
         "framework",
         "m3uzz",
         "onion",
 	"srv"
     ],
-    "homepage": "http://onion.m3uzz.com/",
-    "type": "library",
+    "type": "package",
     "repositories": [
         {
             "type": "package",
@@ -26,14 +32,6 @@
                     "reference": "master"
                 }
             }
-        },
-	{	
-            "type": "vcs",
-            "url": "https://github.com/m3uzz/onionsrv.git"
-        },
-	{	
-            "type": "vcs",
-            "url": "https://github.com/m3uzz/onionlib.git"
         }
     ],
     "require": {
