@@ -1,5 +1,5 @@
 {
-    "name": "m3uzz/OnionSrvSkeleton",
+    "name": "m3uzz/onion-srv-skeleton",
     "description": "Skeleton Application for Onion Srv",
     "homepage": "http://onion.m3uzz.com/",
     "license": "BSD-3-Clause",
@@ -37,10 +37,11 @@
     "require": {
         "php": ">=5.4",
 	"m3uzz/onionsrv": "master",
-	"m3uzz/onionlib": "master"
     },
     "require-dev": {
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "bin": [
     ],
     "replace": {
