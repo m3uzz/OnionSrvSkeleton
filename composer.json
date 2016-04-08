@@ -36,7 +36,7 @@
     ],
     "require": {
         "php": ">=5.4",
-	"m3uzz/onionsrv": "master",
+	"m3uzz/onionsrv": "master"
     },
     "require-dev": {
     },
