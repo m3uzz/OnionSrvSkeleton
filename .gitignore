@@ -1,0 +1,5 @@
+/client/*
+/vendor/*
+/log/*
+/composer.lock
+
