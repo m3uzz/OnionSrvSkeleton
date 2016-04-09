@@ -20,14 +20,14 @@
         {
             "type": "package",
             "package": {
-                "name": "m3uzz/OnionSrvSkeleton",
+                "name": "m3uzz/onion-srv-skeleton",
                 "version": "master",
                 "dist": {
-                    "url": "https://github.com/m3uzz/OnionSrvSkeleton/archive/master.zip",
+                    "url": "https://github.com/m3uzz/onion-srv-skeleton/archive/master.zip",
                     "type": "zip"
                 },
                 "source": {
-                    "url": "https://github.com/m3uzz/OnionSrvSkeleton.git",
+                    "url": "https://github.com/m3uzz/onion-srv-skeleton.git",
                     "type": "git",
                     "reference": "master"
                 }
@@ -40,7 +40,7 @@
     },
     "require-dev": {
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "bin": [
     ],
