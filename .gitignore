@@ -1,5 +1,7 @@
 /client/*
 /vendor/*
 /log/*
+/.settings/*
+/.project
+/.buildpath
 /composer.lock
-
