@@ -1,7 +1,6 @@
 /bin/*
 /client/*
 /vendor/*
-/temp/*
 /.settings/*
 /.project
 /.buildpath
