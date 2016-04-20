@@ -36,7 +36,7 @@
     ],
     "require": {
         "php": ">=5.4",
-		"m3uzz/onionsrv": "master"
+		"m3uzz/oniontool": "master"
     },
     "require-dev": {
     },
@@ -50,7 +50,8 @@
         "post-install-cmd": [ ],
         "post-autoload-dump": [ ],
         "post-create-project-cmd": [
-        	"mv ./vendor/m3uzz/onionsrv/bin/oniontool.php ./bin"
+        	"ln -s ./vendor/m3uzz/oniontool/bin/cmstool.php ./bin",
+        	"ln -s ./vendor/m3uzz/oniontool/bin/srvtool.php ./bin"
         ]
     }
 
