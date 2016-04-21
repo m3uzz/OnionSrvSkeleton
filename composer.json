@@ -51,8 +51,9 @@
         "post-install-cmd": [ ],
         "post-autoload-dump": [ ],
         "post-create-project-cmd": [
-        	"ln -s ./vendor/m3uzz/oniontool/bin/cmstool.php ./bin",
-        	"ln -s ./vendor/m3uzz/oniontool/bin/srvtool.php ./bin"
+        	"ln -s /vendor/m3uzz/oniontool/bin/cmstool.php ./bin/cmstool",
+        	"ln -s /vendor/m3uzz/oniontool/bin/srvtool.php ./bin/srvtool",
+        	"ls -al"
         ]
     }
 
