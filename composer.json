@@ -13,7 +13,7 @@
         "framework",
         "m3uzz",
         "onion",
-		"srv"
+	"srv"
     ],
     "type": "package",
     "repositories": [
@@ -36,9 +36,10 @@
     ],
     "require": {
         "php": ">=5.4",
-		"m3uzz/oniontool": "master"
+	"m3uzz/onionsrv": "master"
     },
     "require-dev": {
+    	"m3uzz/oniontool": "master"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
