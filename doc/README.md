@@ -1,2 +1,0 @@
-Onion Srv Skeleton Application
-==============================
